@@ -1,0 +1,30 @@
+
+.in{
+    width:65%;
+    margin:4%;
+    height:35px;
+    border:none;
+    box-shadow: 4px 4px 10px rgb(88, 88, 88);
+    background-color:rgb(242,250,253);
+    text-align: center;
+    transition:all 2s;
+    transition-delay: .6s;
+}
+
+.bn{
+    width:25%;
+    height:35px;
+    border:none; 
+    box-shadow: 4px 4px 10px rgb(88, 88, 88);
+    color:white;
+    transition:all 2s;
+    transition-delay: .6s;
+    cursor: pointer;
+}
+
+@media screen and (max-width:610px){
+    .in{
+        border:solid 1px darkgray;
+        background-color:white;
+    }
+}

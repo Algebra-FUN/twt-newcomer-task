@@ -1,0 +1,93 @@
+.detail-box{
+    height:125px;
+    margin:15px;
+    margin-left:0px;
+    width:349px;
+    float:right;
+}
+
+.card{
+    background-color: white;
+    box-shadow: 1px 1px 4px rgb(88, 88, 88);
+    margin:40px;
+    width:500px;
+    height:160px;
+    cursor: pointer;
+}
+
+.img-rect{
+    margin:15px;
+    margin-right:5px;
+    width:100px;
+    height:125px;
+    float:left;
+}
+
+.img{
+    width:100px;
+    height:125px;
+}
+
+.book-name{
+    background-color: rgb(114,114,114);
+    color:white;
+    padding:6px;
+    font-size:20px;
+}
+
+.book-more{
+    background-color: rgb(248,248,248);
+    padding:6px;
+}
+.detail-more{
+    padding:6px;
+    overflow: auto;
+}
+  
+#date{
+    float:left;
+}
+#isbn{
+    float:right;
+}
+
+@media screen and (max-width:610px){
+    .detail-box{
+        height:75px;
+        margin:7px;
+        width:175px;
+        float:right;
+        font-size:10px;
+    }
+    
+    .card{
+        box-shadow: 1px 1px 4px rgb(88, 88, 88);
+        margin:25px;
+        width:250px;
+        height:80px;
+    }
+    
+    .img-rect{
+        margin:7px;
+        margin-right:2px;
+        width:50px;
+        height:60px;
+    }
+    
+    .img{
+        width:50px;
+        height:60px;
+    }
+    
+    .book-name{
+        padding:3px;
+        font-size:10px;
+    }
+    .book-more{
+        padding:2px;
+    }
+    .detail-more{
+        padding:2px;
+    }  
+}
+

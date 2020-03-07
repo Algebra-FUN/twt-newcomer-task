@@ -1,0 +1,22 @@
+.holder{
+    background-color:rgb(220,57,53);
+    padding:0.5%;
+    min-height:8.5vh;
+    overflow: auto;
+}
+
+.svg-logo{
+    background-color:rgb(220,57,53);
+    height:40px;
+    margin-left:10px;
+    margin:5px;
+    float:left;
+}
+.svg-account{
+    background-color:rgb(220,57,53);
+    height:40px;
+    margin-right:10px;
+    margin:5px;
+    float:right;
+    cursor: pointer;
+}

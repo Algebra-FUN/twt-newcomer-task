@@ -1,0 +1,111 @@
+  .g-card{
+    width:600px;
+    background-color: white;
+    box-shadow: 2px 2px 10px grey;
+    margin-left:27px;
+    margin-bottom:25px;
+    padding:14px;
+    padding-bottom:24px;
+    position: relative;
+    left:50%;
+    transform: translateX(-55%);
+    animation: fadeIn ease-in-out .8s;
+  }
+  .container{
+    margin-top: 100px;
+    width: 100%;
+  }
+  
+  .card-content{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+  
+  .top-bar{
+    color:grey;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .icon-svg{
+    width:40px;
+    height:40px;
+    margin:10px;
+    margin-left:30px;
+  }
+  
+  .bar-title{
+    height:20px;
+    padding-top:15px;
+    font-size: 20px;
+  }
+  
+  .image{
+    width:200px;
+    height:250px;
+    background-color:azure;
+  }
+  
+  .detail-content{
+    width:250px;
+    color:grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .book-title{
+    padding: 10px;
+    padding-left:25px;
+    font-size: 20px;
+  }
+  .book-detail{
+    font-size: 15px;
+    padding:5px;
+    padding-left:20px;
+  }
+  table{
+    width:100%;
+    color:grey;
+    text-align: center;
+  }
+  th{
+    padding:1vh;
+    font-size:18px;
+  }
+  td{
+    padding:1vh;
+    font-size:15px; 
+  }
+  .more{
+    width:60px;
+    height:30px;
+    padding:5px;
+    padding-left:155px;
+    transform-origin: 84% 50%;
+  }
+
+@media screen and (max-width:650px){
+  .g-card{
+    width:280px;
+    transform: translateX(-58%);
+  }
+  .image{
+    width:120px;
+    height:150px;
+    background-color:azure;
+  }
+  .book-title{
+    padding-left:15px;
+  } 
+  .book-detail{
+    font-size: 13px;
+    padding-left:15px;
+  }
+  .list-item-title{
+    font-size:13px;
+  }
+  .list-item-detail{
+    font-size:10px;
+  }
+}
